@@ -17,25 +17,62 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css"
     />
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-</script>
-    <script> 
-$(function(){
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-});
-</script> 
   </head>
 
   <body>
-    <div id="header"></div>
+    <nav
+      class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient"
+    >
+      <div class="container">
+        <a class="navbar-brand logo" href="./">WIZZDOM</a>
+        <button
+          data-toggle="collapse"
+          class="navbar-toggler"
+          data-target="#navbarNav"
+        >
+          <span class="sr-only">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" href="./">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="./projects-grid-cards">Projects</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="./cv">CV</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="./repair">Repair</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="./contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="page lanidng-page">
+      <section class="portfolio-block block-intro">
+        <div class="container">
+          <div
+            class="avatar"
+            style='background-image:url("assets/img/avatars/avatar.jpg");'
+          ></div>
+          <div class="about-me">
+            <p>
+              Hello! I'm <strong>WIZZDOM <i>(Dominic Connor)</i></strong
+              >, a full-stack developer and co-founder and COO of Boyne
+              Softworks.
+            </p>
+            <a class="btn btn-outline-primary" role="button" href="#">
+              Contact me
+            </a>
+          </div>
+        </div>
+      </section>
       <section class="portfolio-block photography">
         <div class="container">
           <div class="row no-gutters">
@@ -157,7 +194,41 @@ $(function(){
         </div>
       </div>
     </section>
-    <div id="footer"></div>
-    
+    <footer class="page-footer" style="background-color: gray;">
+      <div class="container">
+        <div class="links">
+          <a href="./about">About me</a>
+          <a href="./contact">Contact me</a>
+          <a href="./projects-grid-cards">Projects</a>
+        </div>
+        <div class="social-icons">
+          <a href="https://facebook.com/">
+            <i class="icon ion-social-facebook"></i>
+          </a>
+          <a href="https://instagram.com/">
+            <i class="icon ion-social-instagram-outline"></i>
+          </a>
+          <a href="https://twitter.com/">
+            <i class="icon ion-social-twitter"></i>
+          </a>
+          <a href="https://linkedin.com/">
+            <i class="icon ion-social-linkedin"></i>
+          </a>
+          <a href="https://github.com/wizzdom">
+            <i class="icon ion-social-github"> </i>
+          </a>
+        </div>
+        <p>
+          Copyright &copy; Dominic Connor
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
+      </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
   </body>
 </html>
