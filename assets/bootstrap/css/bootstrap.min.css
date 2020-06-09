@@ -9138,7 +9138,7 @@ a.text-dark:hover {
   }
 }
 .gradient {
-  background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+  background: linear-gradient(120deg, #000000, #007bff);
   color: #f8f9fa;
 }
 .gradient.page-footer {
