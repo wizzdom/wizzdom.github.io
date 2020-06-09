@@ -4699,7 +4699,7 @@ a.badge-dark:focus {
 }
 .alert-warning {
   color: #856404;
-  background-color: #f8f9fa3cd;
+  background-color: #f8f9fa;
   border-color: #ffeeba;
 }
 .alert-warning hr {
@@ -9176,7 +9176,7 @@ a.text-dark:hover {
 .portfolio-block.block-intro {
   text-align: center;
 }
-.portfolio-block.block-intro .about-me {
+.portfolio-block.block-intro .title {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -9247,7 +9247,7 @@ a.text-dark:hover {
 .portfolio-block.photography .item a img {
   transition: 0.8s ease;
 }
-.portfolio-block.skills {
+.portfolio-block.time {
   border-bottom: 1px solid #ddd;
 }
 .special-skill-item {
@@ -9377,12 +9377,12 @@ a.text-dark:hover {
   margin-bottom: 24px !important;
   font-size: 1.4rem;
 }
-.portfolio-info-card.skills h3 {
+.portfolio-info-card.time h3 {
   margin-top: 25px;
   font-size: 1rem;
   font-weight: 700;
 }
-.portfolio-info-card.skills .progress {
+.portfolio-info-card.time .progress {
   height: 3px;
 }
 .portfolio-info-card.contact-info {
@@ -9728,7 +9728,7 @@ a.text-dark:hover {
 }
 .page-footer a {
   margin: 0 10px;
-  color: #f8f9fafff;
+  color: #f8f9fa;
   font-size: 18px;
 }
 .page-footer .links,
@@ -9750,7 +9750,7 @@ a.text-dark:hover {
   display: inline-block;
   height: 36px;
   text-align: center;
-  background-color: #;
+  /* background-color: #; */
   line-height: 34px;
 }
 .page-footer .social-icons a:hover {
