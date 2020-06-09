@@ -4786,7 +4786,7 @@ a.badge-dark:focus {
   }
 }
 .progress-bar-striped {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     45deg,
     hsla(0, 0%, 100%, 0.15) 25%,
     transparent 0,
@@ -4795,7 +4795,7 @@ a.badge-dark:focus {
     hsla(0, 0%, 100%, 0.15) 75%,
     transparent 0,
     transparent
-  );
+  ); */
   background-size: 1rem 1rem;
 }
 .progress-bar-animated {
@@ -9456,7 +9456,7 @@ a.text-dark:hover {
   transition: 0.8s ease;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.39));
+  background: linear-gradient(120deg, #000000, #007bff);
 }
 .portfolio-block.compact-grid .item .description .description-heading {
   font-size: 1em;
