@@ -49,13 +49,13 @@
               <a class="nav-link" href="./repair">Repair</a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" href="./contact">Contact me</a>
+              <a class="nav-link" href="#footer">Contact me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <main class="page landing-page">
+    <main class="page landing-page" id="title">
       <!-- Copy this Section to title pages -->
       <section class="portfolio-block block-intro">
         <div class="container">
@@ -67,13 +67,13 @@
             <p>
               <h2>WIZZDOM</h2>
               <!-- <i>(Dominic Connor)</i> -->
-              <h5>Full-stack developer, co-founder of Boyne Softworks, linux user, tech and
+              <h5>Full-stack developer, co-founder of <a href="https://boynesoftworks.com">Boyne Softworks</a>, <a href="#arch">linux user</a>, tech and
               science enthusiast.</h5>
             </p>
             <a
               class="btn btn-outline-primary"
               role="button"
-              href=""
+              href="#about"
             >
               Let's Get Started!
             </a>
@@ -111,28 +111,28 @@
           </div>
         </div>
       </section> -->
-      <section class="portfolio-block about-me gradient">
+      <section class="portfolio-block about-me gradient" id="about">
         <div class="container">
-          <div class="about-me" >
+          <div class="about-me">
           <h2>About Me</h2>
           <p>Hi, I am WIZZDOM or WIZZDOM03, Welcome to my online home, here you will find some information on me and other cool stuff</p>
           </div>
         </div>
       </section>
-      <section class="portfolio-block call-to-action border-bottom">
+      <!-- <section class="portfolio-block call-to-action border-bottom">
         <div class="container">
           <div class="d-flex justify-content-center align-items-center content">
             <h3>Like what you see?</h3>
             <button
-              class="btn btn-outline-primary btn-lg"
-              type="button"
-              href="./contact"
+              class="btn btn-outline-primary"
+              role="button"
+              href="#footer"
             >
               Contact Me
             </button>
           </div>
         </div>
-      </section>
+      </section> -->
       <!--  -->
       <!--  -->
       <section class="portfolio-block time">
@@ -151,7 +151,7 @@
                   <p class="card-text">
                     I have created websites such as this one and have done so for
                     many small businesses. <hr>
-                    <button class="btn btn-outline-primary btn-lg" type="button" href="./projects">
+                    <button class="btn btn-outline-primary btn-lg" type="button" href="./projects.html">
                       View my Projects
                     </button>
                   </p>
@@ -167,9 +167,9 @@
                   <h3 class="card-title">Learning</h3>
                   <p class="card-text">
                     I love to learn and develop my understanding in various fields of technology and science (especially Physics)...<hr>
-                    <button class="btn btn-outline-primary btn-lg" type="button" href="./contact">
+                    <!-- <button class="btn btn-outline-primary btn-lg" type="button" href="#footer">
               Contact Me
-                    </button>
+                    </button> -->
                   </p>
                 </div>
               </div>
@@ -184,8 +184,8 @@
                   <p class="card-text">
                     I repair Electronics.<br> 
                     Phones, PCs, Laptops, Games Consoles, Macs or anything else...<hr>
-                    <button class="btn btn-outline-primary btn-lg" type="button" href="./contact">
-              Contact Me
+                    <button class="btn btn-outline-primary btn-lg" type="button" href="./repair">
+              Repair
             </button>
                   </p>
                 </div>
@@ -220,16 +220,16 @@
         </div>
       </div>
     </section>
-    <footer class="page-footer">
+    <footer class="page-footer" id="footer">
       <div class="container">
         <div class="container">
-        <div class="links">
+        <!-- <div class="links">
           <a href="./about">About me</a>
-          <a href="./contact">Contact me</a>
-          <!-- <a href="./projects">Projects</a> -->
+          <a href="#footer">Contact me</a>
+          <a href="./projects">Projects</a>
           <a href="./repair">Repair</a>
-        </div>
-        <div class="social-icons">
+        </div> -->
+        <!-- <div class="social-icons"> -->
           <!-- <a href="https://facebook.com/">
             <i class="icon ion-social-facebook"></i>
           </a> -->
@@ -239,7 +239,7 @@
           <!-- <a href="https://twitter.com/">
             <i class="icon ion-social-twitter"></i>
           </a> -->
-          <a href="https://www.linkedin.com/in/dominic-connor-16096b194/">
+          <!-- <a href="https://www.linkedin.com/in/dominic-connor-16096b194/">
             <i class="icon ion-social-linkedin"></i>
           </a>
           <a href="https://github.com/wizzdom">
@@ -248,15 +248,33 @@
             <a href="mailto:wizzdomdotme@gmail.com">
               <i class="icon ion-email"> </i>
           </a>
-        </div>
+        </div> -->
+         <!-- <p>Email: <a href="mailto:wizzdomdotme@gmail.com">wizzdomdotme@gmail.com</a></p> -->
+         <div class="row">
+           <div class="col-md-6" style="text-align: left;">
+             <p>
+          <span class="ion-android-person"></span>  Dominic Connor<br>
+          <span class="ion-location"></span>  Drogheda, Éire<br>
+          <span class="ion-email"></span> <a href="mailto:wizzdomdotme@gmail.com">wizzdomdotme@gmail.com</a><br>
+          <span class="ion-social-linkedin"></span> <a href="https://www.linkedin.com/in/dominic-connor-16096b194/">dominic-connor-16096b194</a><br>
+          <span class="ion-social-github"></span> <a href="https://github.com/wizzdom">wizzdom</a><br>
+          </p>
+           </div>
+           <div class="col-md-6">
+             <a href="./about">About me</a><br>
+          <!-- <a href="#footer">Contact me</a> -->
+          <!-- <a href="./projects">Projects</a> -->
+          <a href="./repair">Repair</a>
+           </div>
+         </div>
         <p>
           Copyright &copy;
           <script>
             document.write(new Date().getFullYear());
           </script>
-          <a href="https://wizzdom.me">Dominic Connor (WIZZDOM)</a><br>
+          <a href="./#title">Dominic Connor (WIZZDOM)</a><br>
           *NOTE: this site is still a work in progress and only a simple static page hosted on GitHub Pages.<br>
-          <i style="font-size: x-small;">I use arch btw ( ͡° ͜ʖ ͡°)</i>
+          <i style="font-size: x-small;" id="arch">I use arch btw ( ͡° ͜ʖ ͡°)</i>
         </p>
       </div>
     </footer>
